@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+logs/*
+!logs/.gitkeep
+output/*
+!output/.gitkeep
+.pytest_cache/
+# InfluxDB binary (tải bằng buoc1_cai_dat.bat), không đưa lên GitHub
+influxdb/
+influxdb.zip
+influxdb_tmp/
+# build PlatformIO
+firmware/esp32-pio/.pio/
+*.zip
